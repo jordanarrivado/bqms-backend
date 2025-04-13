@@ -28,6 +28,8 @@ const allowedOrigins = [
   "http://localhost:8081",
   "http://192.168.100.110:3000",
   "http://192.168.100.110:8081",
+  "https://bqms-frontend.onrender.com",
+  "https://bqms-backend.onrender.com",
 ];
 app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
